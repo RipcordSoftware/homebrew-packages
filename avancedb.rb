@@ -14,6 +14,7 @@ class Avancedb < Formula
   bottle do
     root_url "ftp://ftp.ripcordsoftware.com/pub/brew"
     cellar :any
+    sha256 "ac0a2e1492db7e3c8f0b4b09a1ecc88a26d95311aa05513469b90400cb16d810" => :sierra
     sha256 "7d581fe325dd32b44bef21057b8ddabb8d1e35ef9d1c0df6163ef9db036a29bd" => :el_capitan
   end
 
