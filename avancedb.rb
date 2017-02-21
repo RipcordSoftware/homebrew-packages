@@ -14,5 +14,6 @@ class Avancedb < Formula
 
   def install
     system "make", "CONF=Release"
+    bin.install Dir["src/avancedb/dist/Release/GNU-Linux-x86/*"]
   end
 end
