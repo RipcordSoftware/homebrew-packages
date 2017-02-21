@@ -31,7 +31,8 @@ class Avancedb < Formula
       <string>#{plist_name}</string>
       <key>ProgramArguments</key>
       <array>
-        <string>#{opt_bin}/avancedb</string>      
+        <string>#{opt_bin}/avancedb</string>
+        <string>--dir #{opt_bin}</string>
       </array>
       <key>RunAtLoad</key>
       <true/>
