@@ -15,5 +15,6 @@ class Avancedb < Formula
   def install
     system "make", "CONF=Release"
     bin.install Dir["src/avancedb/dist/Release/GNU-Linux-x86/*"]
+    (prefix/"Library/LaunchDaemons/com.ripcordsoftware.avancedb.plist").delete
   end
 end
