@@ -10,6 +10,12 @@ class Avancedb < Formula
   depends_on "autoconf" => :build
   depends_on "automake" => :build
   depends_on "libtool" => :build
+  
+  bottle do
+    root_url "ftp://ftp.ripcordsoftware.com/pub/brew"
+    cellar :any
+    sha256 "7d581fe325dd32b44bef21057b8ddabb8d1e35ef9d1c0df6163ef9db036a29bd" => :el_capitan
+  end
 
   def install
     system "make", "CONF=Release"
