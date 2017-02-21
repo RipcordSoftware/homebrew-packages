@@ -13,6 +13,6 @@ class Avancedb < Formula
   depends_on "libtool" => :build
 
   def install
-    system "make"
+    system "make", "CONF=Release"
   end
 end
