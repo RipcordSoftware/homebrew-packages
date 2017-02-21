@@ -17,4 +17,14 @@ class Avancedb < Formula
     bin.install Dir["src/avancedb/dist/Release/GNU-Linux-x86/*"]
     (prefix/"Library/LaunchDaemons/com.ripcordsoftware.avancedb.plist").delete
   end
+
+  def caveats
+    str = <<-EOS.undent
+    To test AvanceDB run:
+        curl http://127.0.0.1:5994/
+    The reply should look like:
+        {"couchdb":"Welcome","avancedb":"Welcome","uuid":"....",...}}
+    EOS
+    str
+  end
 end
