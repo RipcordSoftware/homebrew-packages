@@ -32,7 +32,8 @@ class Avancedb < Formula
       <key>ProgramArguments</key>
       <array>
         <string>#{opt_bin}/avancedb</string>
-        <string>--dir #{opt_bin}</string>
+        <string>--dir</string>
+        <string>#{opt_bin}</string>
       </array>
       <key>RunAtLoad</key>
       <true/>
