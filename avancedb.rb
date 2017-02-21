@@ -1,4 +1,4 @@
-class AvanceDb < Formula
+class Avancedb < Formula
   desc "An in-memory database based on the CouchDB REST API and containing the CouchDB Futon and Fauxton web sites"
   homepage "https://github.com/RipcordSoftware/AvanceDB"
   url "https://github.com/RipcordSoftware/AvanceDB/archive/v0.1.0.tar.gz"  
