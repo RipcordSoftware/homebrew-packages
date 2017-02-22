@@ -17,7 +17,6 @@ class Avancedb < Formula
     rebuild 1
     sha256 "ac0a2e1492db7e3c8f0b4b09a1ecc88a26d95311aa05513469b90400cb16d810" => :sierra
     sha256 "7d581fe325dd32b44bef21057b8ddabb8d1e35ef9d1c0df6163ef9db036a29bd" => :el_capitan
-    rebuild 1
     sha256 "c218fcd576400046698b88f3b1ce8f2ea68ba88db82aba532e0efb5030cbaf81" => :yosemite
   end
 
