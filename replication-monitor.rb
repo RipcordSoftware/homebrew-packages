@@ -2,7 +2,7 @@ class ReplicationMonitor < Formula
   desc "A GTK+ desktop app which can create, monitor and delete AvanceDB, PouchDB, CouchDB or Cloudant replication jobs"
   homepage "https://github.com/RipcordSoftware/replication-monitor"
   url "https://github.com/RipcordSoftware/replication-monitor/archive/0.1.9.tar.gz"
-  sha256 "e70317f38e3081db6e93ea69d82468ec54b522f8302c7de364d80249a793d419"
+  sha256 "9827c430d2547e397adec9f8e6d04bb447052c67e421571f5909bf7fd1a58ebf"
   
   resource "requests" do
     url "https://files.pythonhosted.org/packages/16/09/37b69de7c924d318e51ece1c4ceb679bf93be9d05973bb30c35babd596e2/requests-2.13.0.tar.gz"
