@@ -4,7 +4,7 @@ class Avancedb < Formula
   url "https://github.com/RipcordSoftware/AvanceDB.git", :using => :git, :tag => "0.1.1"
   head "https://github.com/RipcordSoftware/AvanceDB.git"
 
-  depends_on "boost"
+  depends_on "boost@1.60"
   depends_on "wget" => :build
   #depends_on "autoconf@2.13" => :build
   #depends_on "autoconf" => :build
